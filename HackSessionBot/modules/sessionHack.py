@@ -34,7 +34,7 @@ async def a_callback(client : Client , query : CallbackQuery):
         await client.send_document(chat_id, "session.txt")
         os.system("rm -rf session.txt")
     else:
-        await query.message.reply_text(text = ch + "\n\n**ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Oυɾ Bσƚ [ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ] (https://t.me/Black_Devil_Admin)**",
+        await query.message.reply_text(text = ch + "\n\n**ᴛʜᴀɴᴋs ғᴏʀ ᴜsɪɴɢ Oυɾ Bσƚ [ʙʟᴀᴄᴋ ᴅᴇᴠɪʟ](https://t.me/Black_Devil_Admin)**",
             reply_markup=HACK_MODS,
             disable_web_page_preview=True)
 
