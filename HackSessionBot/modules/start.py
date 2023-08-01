@@ -8,7 +8,7 @@ from pyrogram.types import CallbackQuery
 async def _start(_, message):
     user = message.from_user.mention
     bot = (await _.get_me()).mention
-            await message.reply_sticker("CAACAgUAAxkBAAIdzWS6SOuJTyhUAje9gf9_NGVaVlaeAAI2CgACnnCRVHvF9Bvb8HUCLwQ") 
+     await message.reply_sticker("CAACAgUAAxkBAAIdzWS6SOuJTyhUAje9gf9_NGVaVlaeAAI2CgACnnCRVHvF9Bvb8HUCLwQ") 
     await message.reply_photo(
        photo = START_PIC,
        caption = PM_TEXT.format(user, bot),
